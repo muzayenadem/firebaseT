@@ -10,7 +10,7 @@ const admins = require('../controller/admin/admins');
 // Example route to get data
 
 router.route('/').get((req,res)=>{
-    res.send('Helloo Muzayen Adem Wabe')
+    res.send('Helloo Muzayen Adem Wabe Daalachaa')
 })
 router.route('/userdata').get(userProfile)
 router.route('/admins').get(admins)
